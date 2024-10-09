@@ -21,6 +21,15 @@
 // console.log(str.charAt(1));
 
 
-let str= 'abh';
-let num = Number(str);
-console.log(num);
+// let str= 'abh';
+// let num = Number(str);
+// console.log(num);
+// function display(){
+//     let x = confirm("Are you sure!");
+//    alert(x);
+// }
+
+function display(){
+let x= prompt("Enter your name:");
+alert(x);
+}

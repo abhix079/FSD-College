@@ -1,0 +1,15 @@
+*{
+    margin: 0;padding: 0;
+}
+.uname{
+    margin: 20px 0px 8px 0px;
+}
+form{
+   position: relative;
+   left: 50%;
+   top: 50%;
+   
+}
+button{
+    margin: 10px 5px;
+}
