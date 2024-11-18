@@ -1,0 +1,32 @@
+.movieList{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    justify-content: center;
+
+}
+.movieCard{
+    width: 30%;
+    margin: 10px;
+    height: 400px;
+    padding: 20px;
+    border: 10px solid white;
+
+}
+.movieImg{width: 80%;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid white;
+
+}
+.movieList h1{
+    background-color: grey;
+
+}
+.movieList h2{
+    background-color: grey;
+
+
+}
