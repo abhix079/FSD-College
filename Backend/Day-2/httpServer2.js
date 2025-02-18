@@ -3,14 +3,18 @@
 const http = require('http');
 
 const server= http.createServer(async(req,res)=>{
-    res.setHeader("Content-Type","application/json");
+    res.statusCode=200
+    res.setHeader("Content-Type","text/html");
+    // res.writeHead(200,{
+    //     'Content-Type':'text/html',
+    // })
    const data = await fetch("https://dummyjson.com/recipes");
-  const dataJson= await data.json();
-  const newData = dataJson.recipes;
+   const dataJson= await data.json();
+   const newData = dataJson.recipes;
   const names=newData.map((i)=>{
     return i.name;
   });
-  res.end(names);
+  res.end(names.toString());
 
 });
 
