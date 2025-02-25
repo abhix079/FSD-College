@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "My First MERN Project",
+  "keywords": [
+    "Users",
+    "and",
+    "Products"
+  ],
+  "license": "ISC",
+  "author": "Abhishek",
+  "main": "index.js",
+  "type":"module",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
