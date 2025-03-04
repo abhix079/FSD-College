@@ -23,6 +23,9 @@ app.use(express.json())
 app.get("/users",(req,res)=>{
     res.status(200);
     res.json(users);
+    // res.status(200).json({
+
+    // })
 
 })
 //API 2
@@ -44,7 +47,7 @@ app.post("/user",(req,res)=>{
 app.delete("deleteUser/:id",(req,res)=>{
     const uid = req.params.id;
     if(uid!=null){
-        const idex= users.findIndex(ind=>ind.id==uid) // is call predicate
+        const index= users.findIndex(ind=>ind.id==uid) // is call predicate
         if(index!=-1){
             users.splice(index,1); // 1 is the number of element
             res.status(200)
