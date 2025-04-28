@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+background: rgb(107, 105, 105);
+box-sizing: border-box;
+}
+.viewUser h1{
+  font-size: 23px;
+  font-weight: 580;
+ 
+}
+.content{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+
+}
+.content h1{
+  font-size: 25px;
+
+}
+.header{
+  width: 100vw;
+  height: 5vh;
+  
+  text-align: center;
+
+
+}
+.footer{
+  text-align: center;
+  width: 100vw;
+  height: 5vh;
+  background-color: black;
+
+}
+
+button{
+  outline: none;
+  border: 1px solid black;
+  background-color: white;
+  padding: 3px 10px;
+  border-radius: 0.7rem;
+  font-size: 14px;
+  font-weight: 530;
+
+}
+
